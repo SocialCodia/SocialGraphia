@@ -1,0 +1,142 @@
+.cusCard{
+  background-color: #1D1D1D !important;
+  width: 100%;
+  border-radius: 20px !important;
+  opacity: 0.9;
+}
+
+.cusCardWrapper{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+.prefix{
+  color:#0077FF !important;
+}
+
+.bold{
+  font-weight: bold !important;
+}
+
+.forgotPasswordLink{
+  text-align: right !important;
+  margin-top: -15px;
+}
+
+input{
+  color: white !important;
+}
+
+.secondryText{
+  color:#C4C5C5;
+}
+
+.cardTitleWrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.cardAction a{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+
+.itemTitle{
+  font-size: 10px;
+  font-weight: bold;
+}
+.festCard{
+  margin: 10px;
+}
+
+
+
+.btn{
+  background-color: #0077FF !important;
+  width: 80%;
+  border-radius: 20px !important;
+}
+body{
+  height: 100vh !important;
+  background-color: #f8f3f3 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cusContainer{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+nav{
+  margin-top: 0 !important;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  /* border-top: 16px solid #3498db; */
+  border: 12px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-image: url(https://pbs.twimg.com/profile_images/1442668981391740936/_f8H_uZ0_400x400.jpg);
+  background-size: cover;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  50% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.socialgraphia {
+  border: 16px solid #f3f3f3; /* Light grey */
+  /* border-top: 16px solid #3498db; */
+  border: 12px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-image: url('/src/img/socialgraphia_circle.jpg');
+  background-size: cover;
+  animation: socialcodia 1s linear infinite;
+}
+
+@keyframes socialcodia {
+  40% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loginPage{
+  background-size: cover;
+  background-image: url('/src/img/1.jpg');
+}
+
+.brand-logo{
+  display: flex !important;
+  z-index: 999;
+}
+
+.item{
+  padding: 10px !important;
+}
+
+.item img:hover{
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.item img{
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.initialImage{
+  border-radius: 10px;
+}
